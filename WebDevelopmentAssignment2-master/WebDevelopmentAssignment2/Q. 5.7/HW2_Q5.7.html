@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style type="text/css">
+        div
+        {
+            width: 500px;
+            height: 500px;
+            border: 2px black;
+            
+            background: 
+            -webkit-gradient(linear, left top, right bottom, 
+            color-stop(12%,red), 
+            color-stop(24%,orange), 
+            color-stop(36%,yellow), 
+            color-stop(48%,green), 
+            color-stop(60%,blue), 
+            color-stop(72%,indigo), 
+            color-stop(100%,violet));
+            
+            background: -moz-linear-gradient
+            (top center, red 12%, orange 24%, yellow 36%, green 48%, blue 60%, indigo 72%, violet 100%);
+                
+            background: linear-gradient
+            (to bottom, red 12%, orange 24%, yellow 36%, green 48%, blue 60%, indigo 72%, violet 100%);
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>Gradient</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style type="text/css">
+        img
+        {
+            position: relative;
+            -webkit-animation : movingImage linear 10s 1s infinite;
+        }
+        @-webkit-keyframes movingImage
+        {
+            0% {opacity: 1; left: 0px; top: 0px;}
+            25% {opacity:1; left: 100px;
+            top:0px;}
+            50% {opacity:1; left: 100px; top:100px;}
+            75% {opacity:1; left: 0px; top:100px;}
+            100% {opacity:1; left:0px; top:0px;}
+        }
+    
+    </style>
+</head>
+<body>
+    <img src="catpattern.jpg" width="138" height="180" alt="cat">
+</body>
+</html>
